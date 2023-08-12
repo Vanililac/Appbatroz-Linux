@@ -12,7 +12,7 @@ namespace Appbatrozlinux
         [UI] private TextView textview1 = null;
          [UI] private Entry entry2 = null;
         [UI] private TextView textview2 = null;
-
+      string[] listexc;
         private int _counter;
 
         public searchwindow() : this(new Builder("searchwindow.glade")) { }
@@ -29,7 +29,7 @@ namespace Appbatrozlinux
 
             }
             textview1.Buffer.Text = a;
-            
+            listexc =ExecuteCommand();
           //  DeleteEvent += Window_DeleteEvent;
          //   _button1.Clicked += Button1_Clicked;
         }
@@ -93,7 +93,7 @@ namespace Appbatrozlinux
 
             string a = "";
             List<string> list = new List<string>();
-            foreach (string ms in ExecuteCommand())
+            foreach (string ms in listexc)
             {
                 if (ms.ToLower().Contains(entry1.Text.ToLower()))
                 {
