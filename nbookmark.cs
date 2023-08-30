@@ -98,7 +98,7 @@ namespace Appbatrozlinux
 
         protected void cancel_Clicked(object sender, EventArgs e)
         {
-            Environment.Exit(Environment.ExitCode);
+            this.Close();
         }
         public string PrettyPrintArrayOfArrays(string[][] arrayOfArrays)
         {
