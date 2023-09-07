@@ -2,8 +2,12 @@
 Makes desktop launcher for one or multiple apps, set launch apps (Experimental), Bookmark file or website with notes.
 Download release version at "https://appbatroz.000webhostapp.com/".
 
+
 #Requirement
-.Net 6
+
+- .Net 6
+- GTK3
+- Glade
 
 #How To Run
 1. Open folder in terminal
