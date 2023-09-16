@@ -1,7 +1,5 @@
 # Appbatroz-Linux
 Makes desktop launcher for one or multiple apps, set launch apps (Experimental), Bookmark file or website with notes.
-Download release version at "https://appbatroz.000webhostapp.com/".
-
 
 #Requirement
 
@@ -14,3 +12,4 @@ Download release version at "https://appbatroz.000webhostapp.com/".
 2. type "dotnet run"
    
 If you want the bundled version, download the release version directly on the website
+[![Download Appbatroz (linux_amd64)](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/appbatroz-linux/files/latest/download)
